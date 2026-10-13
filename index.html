@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jaffin Shaikh · Digital Marketer</title>
+<meta name="description" content="Jaffin Shaikh is a digital marketer in Navi Mumbai who uses AI to run SEO, content and social media at scale.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f4ef;
+    --surface: #ffffff;
+    --ink: #1a1714;
+    --muted: #6b645c;
+    --line: #e6dfd5;
+    --accent: #e4602b;
+    --accent-soft: #fbe6dc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #151210;
+      --surface: #1f1b18;
+      --ink: #f3eee8;
+      --muted: #a39a90;
+      --line: #322c27;
+      --accent: #f07a45;
+      --accent-soft: #3a241a;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 Inter, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 28px 0; }
+  .logo { font: 700 20px "Space Grotesk", sans-serif; text-decoration: none; }
+  .logo span { color: var(--accent); }
+  nav ul { display: flex; gap: 24px; list-style: none; font-size: 15px; }
+  nav ul a { text-decoration: none; color: var(--muted); }
+  nav ul a:hover { color: var(--ink); }
+
+  .hero { padding: 72px 0 88px; }
+  .tag {
+    display: inline-block; background: var(--accent-soft); color: var(--accent);
+    font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 99px; margin-bottom: 24px;
+  }
+  h1 {
+    font: 700 clamp(38px, 7vw, 68px)/1.05 "Space Grotesk", sans-serif;
+    letter-spacing: -0.02em; max-width: 15ch;
+  }
+  h1 em { font-style: normal; color: var(--accent); }
+  .lead { color: var(--muted); font-size: 19px; max-width: 54ch; margin-top: 24px; }
+  .cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 36px; }
+  .btn {
+    display: inline-block; padding: 13px 22px; border-radius: 10px; font-weight: 600;
+    text-decoration: none; font-size: 15px;
+  }
+  .btn-main { background: var(--ink); color: var(--bg); }
+  .btn-ghost { border: 1px solid var(--line); }
+  .btn:hover { opacity: .85; }
+
+  section { padding: 64px 0; border-top: 1px solid var(--line); }
+  h2 { font: 700 30px "Space Grotesk", sans-serif; letter-spacing: -0.01em; margin-bottom: 8px; }
+  .sub { color: var(--muted); margin-bottom: 32px; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px;
+  }
+  .card h3 { font: 700 20px/1.3 "Space Grotesk", sans-serif; margin: 12px 0 8px; }
+  .card p { color: var(--muted); font-size: 15px; }
+  .label { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+  .soon { display: inline-block; margin-top: 16px; font-size: 13px; color: var(--muted); border: 1px dashed var(--line); padding: 4px 10px; border-radius: 99px; }
+
+  .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+  .skills li {
+    list-style: none; background: var(--surface); border: 1px solid var(--line);
+    padding: 8px 14px; border-radius: 99px; font-size: 15px;
+  }
+
+  .about { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  .about p + p { margin-top: 16px; }
+
+  footer { padding: 64px 0 48px; border-top: 1px solid var(--line); }
+  footer h2 { margin-bottom: 16px; }
+  footer .small { color: var(--muted); font-size: 14px; margin-top: 40px; }
+
+  @media (max-width: 680px) {
+    nav ul { gap: 16px; }
+    .about { grid-template-columns: 1fr; gap: 24px; }
+    .hero { padding: 40px 0 64px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <nav>
+    <a class="logo" href="#">Jaffin<span>.</span></a>
+    <ul>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#creative">Creative</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <span class="tag">Digital marketer · Navi Mumbai</span>
+    <h1>I use AI to do in a day what takes others <em>a week.</em></h1>
+    <p class="lead">I'm Jaffin Shaikh. I run SEO, content and social media for a design studio, and I build my own AI workflows with Claude to do it faster and with fewer mistakes.</p>
+    <div class="cta">
+      <a class="btn btn-main" href="#work">See my work</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <section id="work">
+    <h2>Work</h2>
+    <p class="sub">Real projects, real numbers.</p>
+    <div class="grid">
+      <article class="card">
+        <span class="label">SEO · AI workflow</span>
+        <h3>How I used AI to run a 300+ design product catalogue</h3>
+        <p>An SEO content pipeline built with Claude for a US trade-show rental company: page copy, image text and a site-wide audit, published set by set.</p>
+        <span class="soon">Case study coming soon</span>
+      </article>
+      <article class="card">
+        <span class="label">Social media</span>
+        <h3>Launching a brand's first content season</h3>
+        <p>A 36-post plan across LinkedIn and Instagram, with carousels and a free checklist designed to start real conversations.</p>
+        <span class="soon">Coming soon</span>
+      </article>
+    </div>
+  </section>
+
+  <section id="creative">
+    <h2>Creative</h2>
+    <p class="sub">Video edits I made for fun. Not my job title, but a big part of me.</p>
+    <div class="grid">
+      <article class="card">
+        <span class="label">Video</span>
+        <h3>Edits from my teenage years</h3>
+        <p>A small collection of the edits that taught me pacing, colour and storytelling.</p>
+        <span class="soon">Coming soon</span>
+      </article>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="about">
+      <div>
+        <p>I started in SEO content in 2024 and now handle digital marketing for an exhibition design studio, mostly on my own, with Claude as my working partner.</p>
+        <p>Alongside work, I'm studying for my BCA online and learning to code. This site is one of my first builds.</p>
+      </div>
+      <div>
+        <ul class="skills">
+          <li>SEO</li>
+          <li>Content writing</li>
+          <li>Social media</li>
+          <li>WordPress</li>
+          <li>Claude &amp; AI workflows</li>
+          <li>Semrush</li>
+          <li>Video editing</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Let's talk.</h2>
+    <p class="sub">Open to digital marketing roles and interesting projects.</p>
+    <div class="cta">
+      <!-- Replace YOUR-EMAIL and YOUR-LINKEDIN below with your real details -->
+      <a class="btn btn-main" href="mailto:YOUR-EMAIL">Email me</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
+    </div>
+    <p class="small">© 2026 Jaffin Shaikh</p>
+  </footer>
+
+</div>
+</body>
+</html>
